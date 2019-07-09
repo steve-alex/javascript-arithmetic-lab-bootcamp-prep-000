@@ -20,7 +20,8 @@ function inc(n){
 }
 
 function dec(n){
-  return n--;
+  n -= 1
+  return n;
 }
 
 function makeInt(n){
